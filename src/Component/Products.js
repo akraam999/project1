@@ -24,7 +24,7 @@ export function Product(){
     return (
         <div className="container_product">
         {data.map((p,index)=>(
-        <div className="card" style={{width: "18rem"}} key={index}>
+        <div className="card" style={{width: "19rem"}} key={index}>
             <img className="card-img-top" src={"data:image/png;base64," + p.photo} alt="Card image cap" id="img_produit" />
                 <div className="card-body">
                     <div style={{height:"150px"}}>
